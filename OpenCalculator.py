@@ -1,3 +1,6 @@
+#this project will open calulator.
+#the positions of click will change according your window distribuition.
+
 import pyautogui as posicaoMouse
 import pyautogui as tempoEspera
 
