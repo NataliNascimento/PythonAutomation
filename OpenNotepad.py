@@ -1,3 +1,5 @@
+#this project will open notepad.
+
 import pyautogui as posicaoAbreArquivos
 
 #send hotkey win+r
