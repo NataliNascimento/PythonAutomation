@@ -1,6 +1,6 @@
-#this project will open excel, word or notepad according selection.
-#the positions of click will change according your window distribuition.
-#to get the position of your Windows button use print(choiceOption.position()) command.
+# this project will open excel, word or notepad according selection.
+# the positions of click will change according your window distribuition.
+# to get the position of your Windows button use print(choiceOption.position()) command.
 
 import pyautogui as choiceOption
 
