@@ -1,45 +1,45 @@
-#this project will open notepad.
+# this project will open notepad.
 
 import pyautogui as posicaoAbreArquivos
 
-#send hotkey win+r
+# send hotkey win+r
 posicaoAbreArquivos.hotkey('win', 'r')
 
-#wait computer response.
+# wait computer response.
 posicaoAbreArquivos.sleep(1)
 
-#writing notepad in execution window.
+# writing notepad in execution window.
 posicaoAbreArquivos.typewrite('Notepad')
 
-#wait computer response.
+# wait computer response.
 posicaoAbreArquivos.sleep(1)
 
-#press enter
+# press enter
 posicaoAbreArquivos.press('enter')
 
-#waitcomputer response.
+# waitcomputer response.
 posicaoAbreArquivos.sleep(2)
 
-#write message in notepad
+# write message in notepad
 posicaoAbreArquivos.write('Notepad open with Python.')
 
-#wait computer response.
+# wait computer response.
 posicaoAbreArquivos.sleep(4)
 
-#get active window
+# get active window
 fecharBlocoDeNotas = posicaoAbreArquivos.getActiveWindow()
 
-#wait computer response.
+# wait computer response.
 posicaoAbreArquivos.sleep(1)
 
-#close notepad
+# close notepad
 fecharBlocoDeNotas.close()
 
-#wait computer response.
+# wait computer response.
 posicaoAbreArquivos.sleep(1)
 
-#press tab
+# press tab
 posicaoAbreArquivos.press('tab')
 
-#press enter
+# press enter
 posicaoAbreArquivos.press('enter')
