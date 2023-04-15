@@ -21,6 +21,7 @@ keyboardFunctions.press('enter')
 # wait computer response.
 timeResponse.sleep(4)
 
+# for and if to find all elements from the products.
 productList = browser.find_elements(By.CLASS_NAME, 'fwviCj')
 
 for item in productList:
